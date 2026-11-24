@@ -11,9 +11,9 @@ A real estate platform where you browse properties in a vertical, video-first fe
 100 Kvadrata started as a **mobile app** (React Native / Expo, for iOS and Android). This repo is its **web version**: the public website plus the full app in the browser. Both run on the same Supabase backend, so accounts, listings and chats carry over between phone and web. The two codebases also share their business logic (types, data services, state and translations) through a sync script, so a feature built once works on both platforms. The mobile app's source is private and available on request.
 
 <p>
+  <img src="screenshots/profile.png" width="32%" />
   <img src="screenshots/feed.png" width="32%" />
-    <img src="screenshots/listing.png" width="32%" />
-    <img src="screenshots/profile.png" width="32%" />
+  <img src="screenshots/listing.png" width="32%" />
 </p>
 
 - **Feed**: reel layout on phones, grid on desktop, with filters, saved searches and a buyers feed
